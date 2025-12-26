@@ -26,27 +26,14 @@ public static class RoleTagger
         if (o.Contains("search your library for a land", StringComparison.OrdinalIgnoreCase) ||
             o.Contains("search your library for up to", StringComparison.OrdinalIgnoreCase) && o.Contains("land", StringComparison.OrdinalIgnoreCase))
             roles |= CardRole.Ramp;
-
+        
         // ===== Draw =====
-        bool drawPayoff = IsDrawPayoffTrigger(o);
-        if (drawPayoff)
-        {
-            // These are “benefit from draw” cards (Chasm Skulker, Ominous Seas, etc.)
-            roles |= CardRole.Payoff;
-        }
-
-        // Actual draw sources (spells, ETBs, activated abilities, triggered draw that causes draws)
-        // Payoff: triggers off drawing
-        if (IsDrawPayoffTrigger(o))
-            roles |= CardRole.Payoff;
-
-        // ===== Draw =====
-// Payoff triggers: "Whenever you draw..." / "When you draw..." should NOT imply the card draws.
+        // Payoff triggers: "Whenever you draw..." / "When you draw..." should NOT imply the card draws.
         bool drawPayoffTrigger = Regex.IsMatch(o, @"\b(when|whenever)\s+you\s+draw\b", RegexOptions.IgnoreCase);
         if (drawPayoffTrigger)
             roles |= CardRole.Payoff;
 
-// Strip "when/whenever you draw ..." clauses before checking for actual draw instructions.
+        // Strip "when/whenever you draw ..." clauses before checking for actual draw instructions.
         string oNoDrawPayoffs = Regex.Replace(
             o,
             @"\b(when|whenever)\s+you\s+draw\b[^.\n]*[.\n]?",
@@ -54,11 +41,11 @@ public static class RoleTagger
             RegexOptions.IgnoreCase
         );
 
-// Actual draw sources (after stripping draw-payoff clauses)
-        bool anyDraw =
-            Regex.IsMatch(oNoDrawPayoffs, @"\bdraw\b[^.\n]{0,60}\bcards?\b", RegexOptions.IgnoreCase) ||
-            (oNoDrawPayoffs.Contains("exile the top", StringComparison.OrdinalIgnoreCase) &&
-             oNoDrawPayoffs.Contains("you may play", StringComparison.OrdinalIgnoreCase));
+        // Actual draw sources (after stripping draw-payoff clauses)
+        bool anyDraw = HasActualDrawInstruction(o);
+        
+        if (anyDraw) roles |= CardRole.Draw;
+
 
         if (anyDraw)
             roles |= CardRole.Draw;
@@ -200,15 +187,36 @@ public static class RoleTagger
 
     private static bool HasActualDrawInstruction(string o)
     {
-        // After stripping draw-payoff triggers, this is “real draw”.
-        // (Also keep your exile-top “pseudo draw” if you like.)
-        o = StripDrawPayoffClauses(o);
-
-        return
-            Regex.IsMatch(o, @"\bdraw\b[^.\n]{0,60}\bcards?\b", RegexOptions.IgnoreCase) ||
-            (o.Contains("exile the top", StringComparison.OrdinalIgnoreCase) &&
-             o.Contains("you may play", StringComparison.OrdinalIgnoreCase));
+        if (string.IsNullOrWhiteSpace(o)) return false;
+    
+        // Pseudo-draw (Impulse draw)
+        if (o.Contains("exile the top", StringComparison.OrdinalIgnoreCase) &&
+            o.Contains("you may play", StringComparison.OrdinalIgnoreCase))
+            return true;
+    
+        // Look for "draw ... card(s)" occurrences and reject the ones that are only payoffs/modifiers.
+        foreach (Match m in Regex.Matches(o, @"\bdraw\b[^.\n]{0,60}\bcards?\b", RegexOptions.IgnoreCase))
+        {
+            // Grab some prefix context immediately before "draw"
+            var start = Math.Max(0, m.Index - 80);
+            var prefix = o.Substring(start, m.Index - start);
+    
+            // Ignore payoff triggers: "When/Whenever you draw..."
+            // We only care if the phrase right before draw looks like "... when/whenever you"
+            if (Regex.IsMatch(prefix, @"\b(when|whenever)\s+you\s*$", RegexOptions.IgnoreCase))
+                continue;
+    
+            // Ignore draw modifiers: "If you would draw..., draw ... instead"
+            // These don't generate draws on their own; they amplify other draw sources.
+            if (Regex.IsMatch(prefix, @"\bif\s+you\s+would\s*$", RegexOptions.IgnoreCase))
+                continue;
+    
+            return true;
+        }
+    
+        return false;
     }
+
 
 
 }
