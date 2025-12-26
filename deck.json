@@ -1,0 +1,1492 @@
+{
+  "commander": {
+    "id": "97fa8615-2b6c-445a-bcaf-44a7e847bf65",
+    "name": "Kynaios and Tiro of Meletis",
+    "oracleText": "At the beginning of your end step, draw a card. Each player may put a land card from their hand onto the battlefield, then each opponent who didn\u0027t draws a card.",
+    "typeLine": "Legendary Creature \u2014 Human Soldier",
+    "cmc": 4.0,
+    "colorIdentity": [
+      "G",
+      "R",
+      "U",
+      "W"
+    ],
+    "isEligibleAsACommander": true,
+    "usdPrice": null,
+    "roles": 130,
+    "themeTags": [
+      "group_hug"
+    ],
+    "isLand": false
+  },
+  "mainboard": [
+    {
+      "id": "28c1b84a-a21b-4df1-9fc9-5b387fb56810",
+      "name": "Selvala, Explorer Returned",
+      "oracleText": "Parley \u2014 {T}: Each player reveals the top card of their library. For each nonland card revealed this way, add {G} and you gain 1 life. Then each player draws a card.",
+      "typeLine": "Legendary Creature \u2014 Elf Scout",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "G",
+        "W"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 0.15,
+      "roles": 7,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "f1f616f2-d69d-4763-8ff0-3eb05a543926",
+      "name": "Mind Stone",
+      "oracleText": "{T}: Add {C}.\n{1}, {T}, Sacrifice this artifact: Draw a card.",
+      "typeLine": "Artifact",
+      "cmc": 2.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.20,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "c61204b7-02c2-41be-8841-0b261798de7a",
+      "name": "Boros Locket",
+      "oracleText": "{T}: Add {R} or {W}.\n{R/W}{R/W}{R/W}{R/W}, {T}, Sacrifice this artifact: Draw two cards.",
+      "typeLine": "Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.09,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "09eeb301-bc28-4515-ad69-0b1b5164a5bc",
+      "name": "Azorius Cluestone",
+      "oracleText": "{T}: Add {W} or {U}.\n{W}{U}, {T}, Sacrifice this artifact: Draw a card.",
+      "typeLine": "Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.09,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "f893f1e9-1d19-4220-9e0d-3f9c85d33837",
+      "name": "Azorius Locket",
+      "oracleText": "{T}: Add {W} or {U}.\n{W/U}{W/U}{W/U}{W/U}, {T}, Sacrifice this artifact: Draw two cards.",
+      "typeLine": "Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.12,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "8b9001a4-953c-4a32-b51a-c6bec7e74f9e",
+      "name": "Evendo Brushrazer",
+      "oracleText": "Whenever you sacrifice a nontoken permanent, exile the top card of your library.\nDuring your turn, as long as you\u0027ve sacrificed a nontoken permanent this turn, you may play cards exiled with this creature.\n{T}, Sacrifice a land: Add {R}{R}.",
+      "typeLine": "Creature \u2014 Insect Warrior",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.14,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "3084f7ac-6b9b-48ad-b39c-3d7b7fb79422",
+      "name": "Boros Cluestone",
+      "oracleText": "{T}: Add {R} or {W}.\n{R}{W}, {T}, Sacrifice this artifact: Draw a card.",
+      "typeLine": "Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.32,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "53face79-d2bf-43dd-aa4e-d724c2b68c49",
+      "name": "Deconstruct",
+      "oracleText": "Destroy target artifact. Add {G}{G}{G}.",
+      "typeLine": "Sorcery",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "G"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.15,
+      "roles": 9,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "249a7be3-311e-4ce6-97dc-97242463ae23",
+      "name": "Abstruse Interference",
+      "oracleText": "Devoid (This card has no color.)\nCounter target spell unless its controller pays {1}. You create a 1/1 colorless Eldrazi Scion creature token. It has \u0022Sacrifice this token: Add {C}.\u0022 ({C} represents colorless mana.)",
+      "typeLine": "Instant",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.07,
+      "roles": 9,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "d18396f9-ae20-4471-84ab-a2148319bc39",
+      "name": "Arni Slays the Troll",
+      "oracleText": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 Target creature you control fights up to one target creature you don\u0027t control.\nII \u2014 Add {R}. Put two \u002B1/\u002B1 counters on up to one target creature you control.\nIII \u2014 You gain life equal to the greatest power among creatures you control.",
+      "typeLine": "Enchantment \u2014 Saga",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.15,
+      "roles": 1,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "343ef398-576a-43b6-a32b-f916ccd63579",
+      "name": "Drumhunter",
+      "oracleText": "At the beginning of your end step, if you control a creature with power 5 or greater, you may draw a card.\n{T}: Add {C}.",
+      "typeLine": "Creature \u2014 Human Druid Warrior",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "G"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.36,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "0e038250-f8a9-4bce-baa6-7c2502929b59",
+      "name": "Bounty of the Luxa",
+      "oracleText": "At the beginning of your first main phase, remove all flood counters from this enchantment. If no counters were removed this way, put a flood counter on this enchantment and draw a card. Otherwise, add {C}{G}{U}.",
+      "typeLine": "Enchantment",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.07,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "fdbe6937-ceda-4367-a101-562fd5e0e09d",
+      "name": "Famished Foragers",
+      "oracleText": "When this creature enters, if an opponent lost life this turn, add {R}{R}{R}.\n{2}{R}, Discard a card: Draw a card.",
+      "typeLine": "Creature \u2014 Vampire",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.03,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "bb5306d6-0f08-429a-8590-1b8136f953a9",
+      "name": "Battery Bearer",
+      "oracleText": "Creatures you control have \u0022{T}: Add {C}. This mana can\u0027t be spent to cast a nonartifact spell.\u0022\nWhenever you cast an artifact spell with mana value 6 or greater, draw a card.",
+      "typeLine": "Creature \u2014 Human Artificer",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "G",
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.04,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "323a05ee-8296-41c0-94ab-00913d9d84f1",
+      "name": "Fabrication Foundry",
+      "oracleText": "{T}: Add {W}. Spend this mana only to cast an artifact spell or activate an ability of an artifact source.\n{2}{W}, {T}, Exile one or more other artifacts you control with total mana value X: Return target artifact card with mana value X or less from your graveyard to the battlefield. Activate only as a sorcery.",
+      "typeLine": "Artifact",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.17,
+      "roles": 33,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "78ee2013-29dc-4879-9d59-1b492996d297",
+      "name": "Eldrazi Confluence",
+      "oracleText": "Choose three. You may choose the same mode more than once.\n\u2022 Target creature gets \u002B3/-3 until end of turn.\n\u2022 Exile target nonland permanent, then return it to the battlefield tapped under its owner\u0027s control.\n\u2022 Create a 1/1 colorless Eldrazi Scion creature token with \u0022Sacrifice this token: Add {C}.\u0022",
+      "typeLine": "Instant",
+      "cmc": 4.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 6.64,
+      "roles": 9,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "e4ed0052-d6dd-4f69-8313-10863baefac9",
+      "name": "Everflowing Chalice",
+      "oracleText": "Multikicker {2} (You may pay an additional {2} any number of times as you cast this spell.)\nThis artifact enters with a charge counter on it for each time it was kicked.\n{T}: Add {C} for each charge counter on this artifact.",
+      "typeLine": "Artifact",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.18,
+      "roles": 1,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "a73c630c-c98d-4f8a-9e6a-2576d5fec4ee",
+      "name": "Cryptic Trilobite",
+      "oracleText": "This creature enters with X \u002B1/\u002B1 counters on it.\nRemove a \u002B1/\u002B1 counter from this creature: Add {C}{C}. Spend this mana only to activate abilities.\n{1}, {T}: Put a \u002B1/\u002B1 counter on this creature.",
+      "typeLine": "Creature \u2014 Trilobite",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 1.16,
+      "roles": 1,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "7faf5812-2067-4386-bb83-150723d67d02",
+      "name": "Drownyard Lurker",
+      "oracleText": "Vigilance\nWhen you cast or cycle Drownyard Lurker, create a 0/1 colorless Eldrazi Spawn creature token with \u0022Sacrifice this token: Add {C}.\u0022\nCycling {2}{U} ({2}{U}, Discard this card: Draw a card.)",
+      "typeLine": "Creature \u2014 Eldrazi Trilobite",
+      "cmc": 7.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.03,
+      "roles": 3,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "40463be5-89e2-410b-9a4b-770f70d14293",
+      "name": "Ashling, Flame Dancer",
+      "oracleText": "You don\u0027t lose unspent red mana as steps and phases end.\nMagecraft \u2014 Whenever you cast or copy an instant or sorcery spell, discard a card, then draw a card. If this is the second time this ability has resolved this turn, Ashling deals 2 damage to each opponent and each creature they control. If it\u0027s the third time, add {R}{R}{R}{R}.",
+      "typeLine": "Legendary Creature \u2014 Elemental Shaman",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 14.90,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "44657ab1-0a6a-4a5f-9688-86f239083821",
+      "name": "Birgi, God of Storytelling // Harnfel, Horn of Bounty",
+      "oracleText": "Whenever you cast a spell, add {R}. Until end of turn, you don\u0027t lose this mana as steps and phases end.\nCreatures you control can boast twice during each of your turns rather than once.\nDiscard a card: Exile the top two cards of your library. You may play those cards this turn.",
+      "typeLine": "Legendary Creature \u2014 God // Legendary Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 22.20,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "a22d21ec-0fb3-4574-a803-6442ec13167e",
+      "name": "Chandra, Flameshaper",
+      "oracleText": "\u002B2: Add {R}{R}{R}. Exile the top three cards of your library. Choose one. You may play that card this turn.\n\u002B1: Create a token that\u0027s a copy of target creature you control, except it has haste and \u0022At the beginning of the end step, sacrifice this token.\u0022\n\u22124: Chandra deals 8 damage divided as you choose among any number of target creatures and/or planeswalkers.",
+      "typeLine": "Legendary Planeswalker \u2014 Chandra",
+      "cmc": 7.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 1.07,
+      "roles": 131,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "79248b68-4fab-46da-ab15-5c71c1f68d4b",
+      "name": "Tempt with Discovery",
+      "oracleText": "Tempting offer \u2014 Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. For each opponent who searches a library this way, search your library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles.",
+      "typeLine": "Sorcery",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "G"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 5.25,
+      "roles": 1,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "08e66835-c228-48fa-bcaa-eb96edbd4f5a",
+      "name": "Expedition Map",
+      "oracleText": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle.",
+      "typeLine": "Artifact",
+      "cmc": 1.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": null,
+      "roles": 1,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "85a8c84b-7d6c-4068-97b1-bc5dec46732c",
+      "name": "Fall of the First Civilization",
+      "oracleText": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI \u2014 You and target opponent each draw two cards.\nII \u2014 Exile target artifact an opponent controls.\nIII \u2014 Each player chooses three nonland permanents they control. Destroy all other nonland permanents.",
+      "typeLine": "Enchantment \u2014 Saga",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.17,
+      "roles": 26,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "49dfee68-c242-4579-94b1-c23238f8c87d",
+      "name": "Aberrant",
+      "oracleText": "Ravenous (This creature enters with X \u002B1/\u002B1 counters on it. If X is 5 or more, draw a card when it enters.)\nTrample\nHeavy Power Hammer \u2014 Whenever this creature deals combat damage to a player, destroy target artifact or enchantment that player controls.",
+      "typeLine": "Creature \u2014 Tyranid Mutant",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "G"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 4.15,
+      "roles": 138,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "3389f9d7-b8ae-4c51-90f9-b6385517914a",
+      "name": "Break Down",
+      "oracleText": "Destroy target artifact or enchantment. Create a Junk token. (It\u0027s an artifact with \u0022{T}, Sacrifice this token: Exile the top card of your library. You may play that card this turn. Activate only as a sorcery.\u0022)",
+      "typeLine": "Instant",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "G"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.08,
+      "roles": 10,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "07a2c7fa-7aea-4da4-b7d5-9c24f5024c74",
+      "name": "Astral Drift",
+      "oracleText": "Whenever you cycle this card or cycle another card while this enchantment is on the battlefield, you may exile target creature. If you do, return that card to the battlefield under its owner\u0027s control at the beginning of the next end step.\nCycling {2}{W} ({2}{W}, Discard this card: Draw a card.)",
+      "typeLine": "Enchantment",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.14,
+      "roles": 138,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "e21827eb-fa49-4784-a86b-aef164a5018e",
+      "name": "Niambi, Esteemed Speaker",
+      "oracleText": "Flash\nWhen Niambi enters, you may return another target creature you control to its owner\u0027s hand. If you do, you gain life equal to that creature\u0027s mana value.\n{1}{W}{U}, {T}, Discard a legendary card: Draw two cards.",
+      "typeLine": "Legendary Creature \u2014 Human Cleric",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 0.19,
+      "roles": 2,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "f571fef1-1fd2-4355-b803-5edccb6f4b94",
+      "name": "Kwain, Itinerant Meddler",
+      "oracleText": "{T}: Each player may draw a card, then each player who drew a card this way gains 1 life.",
+      "typeLine": "Legendary Creature \u2014 Rabbit Wizard",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U",
+        "W"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 0.18,
+      "roles": 2,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "cf2a9e82-8670-4b7f-b5f0-8e10f8aeff1c",
+      "name": "Dawn of Hope",
+      "oracleText": "Whenever you gain life, you may pay {2}. If you do, draw a card.\n{3}{W}: Create a 1/1 white Soldier creature token with lifelink.",
+      "typeLine": "Enchantment",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.30,
+      "roles": 130,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "290f4b4f-4f48-4031-b62a-91a0d6716ddd",
+      "name": "Bag of Holding",
+      "oracleText": "Whenever you discard a card, exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{4}, {T}, Sacrifice this artifact: Return all cards exiled with this artifact to their owner\u0027s hand.",
+      "typeLine": "Artifact",
+      "cmc": 1.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.16,
+      "roles": 162,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "ac6d60fe-681b-495e-813c-c8418f3f29e5",
+      "name": "Phial of Galadriel",
+      "oracleText": "If you would draw a card while you have no cards in hand, draw two cards instead.\nIf you would gain life while you have 5 or less life, you gain twice that much life instead.\n{T}: Add one mana of any color.",
+      "typeLine": "Legendary Artifact",
+      "cmc": 3.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.39,
+      "roles": 2,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "ccacc197-7c22-444d-8e6e-950dca63eb2c",
+      "name": "Minds Aglow",
+      "oracleText": "Join forces \u2014 Starting with you, each player may pay any amount of mana. Each player draws X cards, where X is the total amount of mana paid this way.",
+      "typeLine": "Sorcery",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.62,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "8e5f71ca-e7d9-4f9a-adf1-40353693deea",
+      "name": "Dakra Mystic",
+      "oracleText": "{U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners\u0027 graveyards. If you don\u0027t, each player draws a card.",
+      "typeLine": "Creature \u2014 Merfolk Wizard",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.24,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "fe7c7a65-5a96-4986-877b-b34583092bb6",
+      "name": "Divine Offering",
+      "oracleText": "Destroy target artifact. You gain life equal to its mana value.",
+      "typeLine": "Instant",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.07,
+      "roles": 8,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "6c0b3795-7f30-4c61-b5d8-f238055d6be1",
+      "name": "Serene Offering",
+      "oracleText": "Destroy target enchantment. You gain life equal to its mana value.",
+      "typeLine": "Instant",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.22,
+      "roles": 8,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "78f6d7c2-ee4f-4cd0-a9a2-d8469ff89291",
+      "name": "Crook of Condemnation",
+      "oracleText": "{1}, {T}: Exile target card from a graveyard.\n{1}, Exile this artifact: Exile all graveyards.",
+      "typeLine": "Artifact",
+      "cmc": 2.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.07,
+      "roles": 24,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "1eb10082-4f0a-41f9-9a70-0d3c7ead249f",
+      "name": "Cloud\u0027s Limit Break",
+      "oracleText": "Tiered (Choose one additional cost.)\n\u2022 Cross-Slash \u2014 {0} \u2014 Destroy target tapped creature.\n\u2022 Blade Beam \u2014 {1} \u2014 Destroy any number of target tapped creatures with different controllers.\n\u2022 Omnislash \u2014 {3}{W} \u2014 Destroy all tapped creatures.",
+      "typeLine": "Instant",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.28,
+      "roles": 24,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "bf6e3ca4-5b56-40bb-bec7-c92fc7eb50d2",
+      "name": "Exile",
+      "oracleText": "Exile target nonwhite attacking creature. You gain life equal to its toughness.",
+      "typeLine": "Instant",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 1.32,
+      "roles": 8,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "f7094fc0-1d26-429c-9b49-37718c4a5c80",
+      "name": "Break the Spell",
+      "oracleText": "Destroy target enchantment. If a permanent you controlled or a token was destroyed this way, draw a card.",
+      "typeLine": "Instant",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.05,
+      "roles": 266,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "78e0d3d9-8c28-46d7-9fab-c115e6c8682f",
+      "name": "Chastise",
+      "oracleText": "Destroy target attacking creature. You gain life equal to its power.",
+      "typeLine": "Instant",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.10,
+      "roles": 8,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "2bd05f97-ef8b-4cbe-a44b-6501aa5895b0",
+      "name": "Artistic Refusal",
+      "oracleText": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature\u0027s color.)\nChoose one or both \u2014\n\u2022 Counter target spell.\n\u2022 Draw two cards, then discard a card.",
+      "typeLine": "Instant",
+      "cmc": 6.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.07,
+      "roles": 10,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "56adb184-f261-40e1-bdf3-e85d7d13faa2",
+      "name": "Active Volcano",
+      "oracleText": "Choose one \u2014\n\u2022 Destroy target blue permanent.\n\u2022 Return target Island to its owner\u0027s hand.",
+      "typeLine": "Instant",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.11,
+      "roles": 8,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "b6beac36-e12f-408d-a37b-a70e0e6c52d8",
+      "name": "Blazing Hope",
+      "oracleText": "Exile target creature with power greater than or equal to your life total.",
+      "typeLine": "Instant",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.09,
+      "roles": 8,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "432254fb-1024-4d22-8396-10e6fff8b4d8",
+      "name": "Bottled Cloister",
+      "oracleText": "At the beginning of each opponent\u0027s upkeep, exile all cards from your hand face down.\nAt the beginning of your upkeep, return all cards you own exiled with this artifact to your hand, then draw a card.",
+      "typeLine": "Artifact",
+      "cmc": 4.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.15,
+      "roles": 146,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "907a3396-706b-4ca2-9973-bca758986032",
+      "name": "Raiding Party",
+      "oracleText": "This enchantment can\u0027t be the target of white spells or abilities from white sources.\nSacrifice an Orc: Each player may tap any number of untapped white creatures they control. For each creature tapped this way, that player chooses up to two Plains. Then destroy all Plains that weren\u0027t chosen this way by any player.",
+      "typeLine": "Enchantment",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.15,
+      "roles": 16,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "b010ece6-ccb9-4237-8682-2e147220f908",
+      "name": "Coercive Portal",
+      "oracleText": "Will of the council \u2014 At the beginning of your upkeep, starting with you, each player votes for carnage or homage. If carnage gets more votes, sacrifice this artifact and destroy all nonland permanents. If homage gets more votes or the vote is tied, draw a card.",
+      "typeLine": "Artifact",
+      "cmc": 4.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 6.67,
+      "roles": 146,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "47ce8b7e-d8e1-489a-a69e-99089eeb8739",
+      "name": "Cleric Class",
+      "oracleText": "(Gain the next level as a sorcery to add its ability.)\nIf you would gain life, you gain that much life plus 1 instead.\n{3}{W}: Level 2\nWhenever you gain life, put a \u002B1/\u002B1 counter on target creature you control.\n{4}{W}: Level 3\nWhen this Class becomes level 3, return target creature card from your graveyard to the battlefield. You gain life equal to that creature\u0027s toughness.",
+      "typeLine": "Enchantment \u2014 Class",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "W"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 2.00,
+      "roles": 160,
+      "themeTags": [
+        "lifegain"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "fa135775-abcd-4a21-abb7-3aeb5a39df28",
+      "name": "Akiri, Fearless Voyager",
+      "oracleText": "Whenever you attack a player with one or more equipped creatures, draw a card.\n{W}: You may unattach an Equipment from a creature you control. If you do, tap that creature and it gains indestructible until end of turn.",
+      "typeLine": "Legendary Creature \u2014 Kor Warrior",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "R",
+        "W"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 0.60,
+      "roles": 162,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "31e4b7a1-b377-49d2-a92e-4bcb0db35f16",
+      "name": "Bello, Bard of the Brambles",
+      "oracleText": "During your turn, each non-Equipment artifact and non-Aura enchantment you control with mana value 4 or greater is a 4/4 Elemental creature in addition to its other types and has indestructible, haste, and \u0022Whenever this creature deals combat damage to a player, draw a card.\u0022",
+      "typeLine": "Legendary Creature \u2014 Raccoon Bard",
+      "cmc": 3.0,
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "isEligibleAsACommander": true,
+      "usdPrice": 4.05,
+      "roles": 162,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "50d4b0df-a1d8-494f-a019-70ce34161320",
+      "name": "Arlinn, the Pack\u0027s Hope // Arlinn, the Moon\u0027s Fury",
+      "oracleText": "Daybound (If a player casts no spells during their own turn, it becomes night next turn.)\n\u002B1: Until your next turn, you may cast creature spells as though they had flash, and each creature you control enters with an additional \u002B1/\u002B1 counter on it.\n\u22123: Create two 2/2 green Wolf creature tokens.\nNightbound (If a player casts at least two spells during their own turn, it becomes day next turn.)\n\u002B2: Add {R}{G}.\n0: Until end of turn, Arlinn becomes a 5/5 Werewolf creature with trample, indestructible, and haste.",
+      "typeLine": "Legendary Planeswalker \u2014 Arlinn // Legendary Planeswalker \u2014 Arlinn",
+      "cmc": 4.0,
+      "colorIdentity": [
+        "G",
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 2.92,
+      "roles": 33,
+      "themeTags": [],
+      "isLand": false
+    },
+    {
+      "id": "af1035f3-3027-4a41-834c-55222b13c2bc",
+      "name": "Winter Sky",
+      "oracleText": "Flip a coin. If you win the flip, Winter Sky deals 1 damage to each creature and each player. If you lose the flip, each player draws a card.",
+      "typeLine": "Sorcery",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 1.21,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "69ebc3a4-94b8-45aa-a3bf-21cd435ff5cf",
+      "name": "Prosperity",
+      "oracleText": "Each player draws X cards.",
+      "typeLine": "Sorcery",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 2.99,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "a448bc9e-f5db-4507-ac40-7d8ee3598585",
+      "name": "Burning Inquiry",
+      "oracleText": "Each player draws three cards, then discards three cards at random.",
+      "typeLine": "Sorcery",
+      "cmc": 1.0,
+      "colorIdentity": [
+        "R"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 2.58,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "82b142be-4586-487a-8dd8-a55eff776458",
+      "name": "Friendly Teddy",
+      "oracleText": "When this creature dies, each player draws a card.",
+      "typeLine": "Artifact Creature \u2014 Bear Toy",
+      "cmc": 2.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.03,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "37c96615-0dcb-4108-978a-b41b43e12f38",
+      "name": "Fascination",
+      "oracleText": "Choose one \u2014\n\u2022 Each player draws X cards.\n\u2022 Each player mills X cards.",
+      "typeLine": "Sorcery",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.17,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "efedf97b-8901-4558-8bd0-3f488097f686",
+      "name": "Runed Servitor",
+      "oracleText": "When this creature dies, each player draws a card.",
+      "typeLine": "Artifact Creature \u2014 Construct",
+      "cmc": 2.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.03,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "b6ef8e44-3b40-46c2-973e-8f857126a13e",
+      "name": "Skyscribing",
+      "oracleText": "Each player draws X cards.\nForecast \u2014 {2}{U}, Reveal this card from your hand: Each player draws a card. (Activate only during your upkeep and only once each turn.)",
+      "typeLine": "Sorcery",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.54,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "c7935b2b-aebe-44b3-b91b-52978bb4ded5",
+      "name": "Lore Broker",
+      "oracleText": "{T}: Each player draws a card, then discards a card.",
+      "typeLine": "Creature \u2014 Human Rogue",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.47,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "76999d96-f3fe-421e-9190-e682259e3cdb",
+      "name": "Vision Skeins",
+      "oracleText": "Each player draws two cards.",
+      "typeLine": "Instant",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.64,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "6afc67d1-1018-4a15-ab5f-377fd11dcd3d",
+      "name": "Folio of Fancies",
+      "oracleText": "Players have no maximum hand size.\n{X}{X}, {T}: Each player draws X cards.\n{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand.",
+      "typeLine": "Artifact",
+      "cmc": 2.0,
+      "colorIdentity": [
+        "U"
+      ],
+      "isEligibleAsACommander": false,
+      "usdPrice": 1.18,
+      "roles": 6,
+      "themeTags": [
+        "group_hug"
+      ],
+      "isLand": false
+    },
+    {
+      "id": "85eb4b03-305b-45a4-82e5-5fcd586cc744",
+      "name": "Command Tower",
+      "oracleText": "{T}: Add one mana of any color in your commander\u0027s color identity.",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.23,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "b8504812-fcf5-47d3-977d-1d9a11231fd0",
+      "name": "Path of Ancestry",
+      "oracleText": "This land enters tapped.\n{T}: Add one mana of any color in your commander\u0027s color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.17,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "e86174cd-0291-4fca-8e22-2d2b6f921460",
+      "name": "Exotic Orchard",
+      "oracleText": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.14,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "7102269a-e0d1-42a0-aa9d-fdd53b5aaebe",
+      "name": "Terramorphic Expanse",
+      "oracleText": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.12,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "31181bd2-3a1f-4cb9-ba30-637ac479133a",
+      "name": "Evolving Wilds",
+      "oracleText": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.08,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "a0e2098f-1d94-491a-a7e9-a45a9f69e3a8",
+      "name": "Myriad Landscape",
+      "oracleText": "This land enters tapped.\n{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle.",
+      "typeLine": "Land",
+      "cmc": 0.0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0.15,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:plains",
+      "name": "Plains",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:plains",
+      "name": "Plains",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:plains",
+      "name": "Plains",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:mountain",
+      "name": "Mountain",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:mountain",
+      "name": "Mountain",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:plains",
+      "name": "Plains",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:plains",
+      "name": "Plains",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:mountain",
+      "name": "Mountain",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:mountain",
+      "name": "Mountain",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:mountain",
+      "name": "Mountain",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:forest",
+      "name": "Forest",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    },
+    {
+      "id": "basic:island",
+      "name": "Island",
+      "oracleText": "",
+      "typeLine": "Basic Land",
+      "cmc": 0,
+      "colorIdentity": [],
+      "isEligibleAsACommander": false,
+      "usdPrice": 0,
+      "roles": 0,
+      "themeTags": [],
+      "isLand": true
+    }
+  ],
+  "report": {
+    "lands": 37,
+    "ramp": 25,
+    "drawTotal": 42,
+    "drawPersonal": 28,
+    "drawGroup": 13,
+    "removal": 17,
+    "wipes": 6,
+    "protection": 6,
+    "tutors": 0,
+    "payoffs": 16,
+    "estimatedUsd": 89.85,
+    "cantrips": 1,
+    "drawEngines": 28
+  },
+  "warnings": [
+    "Could not fully satisfy Payoffs/Theme quota; short by 10."
+  ]
+}
